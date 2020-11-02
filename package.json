@@ -1,0 +1,32 @@
+{
+  "name": "westred",
+  "version": "0.1.0",
+  "description": "A browser based on electron.",
+  "main": "source/index.js",
+  "scripts": {
+    "build-dev": "NODE_ENV=development node build.js",
+    "build": "node build.js",
+    "start": "electron source/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sartrey/westred.git"
+  },
+  "keywords": [
+    "browser",
+    "electron",
+    "proxy"
+  ],
+  "author": "Sartrey Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sartrey/westred/issues"
+  },
+  "homepage": "https://github.com/sartrey/westred#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@epiijs/render": "^1.0.0"
+  }
+}
