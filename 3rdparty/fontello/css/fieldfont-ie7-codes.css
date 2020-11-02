@@ -1,0 +1,14 @@
+
+.icon-left { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x41;&nbsp;'); }
+.icon-right { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x42;&nbsp;'); }
+.icon-cw { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x43;&nbsp;'); }
+.icon-cw2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x44;&nbsp;'); }
+.icon-menu { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x45;&nbsp;'); }
+.icon-star-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x46;&nbsp;'); }
+.icon-star { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x47;&nbsp;'); }
+.icon-plus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x48;&nbsp;'); }
+.icon-th { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x49;&nbsp;'); }
+.icon-search { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4a;&nbsp;'); }
+.icon-minus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4b;&nbsp;'); }
+.icon-popup { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4c;&nbsp;'); }
+.icon-cancel { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4d;&nbsp;'); }

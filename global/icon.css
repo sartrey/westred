@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'fieldfont';
+    src: url('./font/fieldfont.eot');
+    src: url('./font/fieldfont.eot#iefix') format('embedded-opentype'),
+         url('./font/fieldfont.woff') format('woff'),
+         url('./font/fieldfont.ttf') format('truetype'),
+         url('./font/fieldfont.svg#fieldfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    font-family: 'fieldfont';
+    font-style: normal;
+}

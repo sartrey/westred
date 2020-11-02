@@ -1,0 +1,14 @@
+
+.icon-left:before { content: '\41'; } /* 'A' */
+.icon-right:before { content: '\42'; } /* 'B' */
+.icon-cw:before { content: '\43'; } /* 'C' */
+.icon-cw2:before { content: '\44'; } /* 'D' */
+.icon-menu:before { content: '\45'; } /* 'E' */
+.icon-star-empty:before { content: '\46'; } /* 'F' */
+.icon-star:before { content: '\47'; } /* 'G' */
+.icon-plus:before { content: '\48'; } /* 'H' */
+.icon-th:before { content: '\49'; } /* 'I' */
+.icon-search:before { content: '\4a'; } /* 'J' */
+.icon-minus:before { content: '\4b'; } /* 'K' */
+.icon-popup:before { content: '\4c'; } /* 'L' */
+.icon-cancel:before { content: '\4d'; } /* 'M' */

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../3rdparty/normalize/normalize.css" />
+    <link rel="stylesheet" href="../global/window.css" />
+    <link rel="stylesheet" href="../global/icon.css" />
+    <link rel="stylesheet" href="browser.css" />
+    <meta http-equiv="pragma" contect="no-cache" />
+    <title>Browser</title>
+</head>
+<body>
+    <div class="window window-border">
+        <div class="window-client">
+            <div class="top app-region row">
+                <div id="top-tab-tool">
+                    <div id="btn-tabs" class="tab tab-btn"><p><i class="icon">I</i></p></div>
+                    <div id="btn-new" class="tab tab-btn"><p><i class="icon">H</i></p></div>
+                </div>
+                <div id="top-tab"></div>
+                <div id="top-control">
+                    <a id="btn-min" class="btn-top"><i class="icon">K</i></a>
+                    <a id="btn-max" class="btn-top"><i class="icon">L</i></a>
+                    <a id="btn-close" class="btn-top"><i class="icon">M</i></a>
+                </div>
+            </div>
+            <div class="page">
+                <div class="page-client">
+                    <div id="nav" class="toolbar row">
+                        <div id="nav-action">
+                            <a id="btn-back" class="btn-tool"><i class="icon">A</i></a>
+                            <a id="btn-forward" class="btn-tool"><i class="icon">B</i></a>
+                            <a id="btn-refresh" class="btn-tool"><i class="icon">C</i></a>
+                            <a id="btn-refresh-window" class="btn-tool"><i class="icon">D</i></a>
+                        </div>
+                        <div id="nav-url">
+                            <input type="text" id="txt-url" class="textbox" />
+                        </div>
+                        <div id="nav-plugin">
+                        </div>
+                        <div id="nav-menu">
+                            <a id="btn-menu" class="btn-tool"><i class="icon">E</i></a>
+                        </div>
+                    </div>
+                    <div id="view"></div>
+                </div>
+                <div id="state"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="browser.js"></script>
+</body>
+</html>
